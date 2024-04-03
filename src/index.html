@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Acquiring knowledge through the act of playing.</title>
+</head>
+<body class="body">
+    <header class="header">
+        <i class="fa-solid fa-puzzle-piece"></i> Play Wise, Master Your Quest for Knowledge.
+    </header>
+<main class="container">
+    <div class="inputButtons">
+        <button type="button" id="addFlashcardButton">Add Flashcard</button>
+    </div>
+    <div id="flashcardModal" class="modal">
+        <div class="modal-content">
+            <span class="close"><i class="fa-solid fa-rectangle-xmark"></i></span>
+            <input type="text" id="modalQuestionInput" placeholder="Enter your question..." />
+            <input type="text" id="modalAnswerInput" placeholder="Enter your answer..." />
+            <button type="button" id="saveFlashcardButton">Add</button>
+        </div>
+    </div>
+<div class="card-header">
+    <th>Craft Your Wisdom <i class="fa-solid fa-diamond"></i></th>
+</div>
+<div class="sortContainer">
+    <button type="button" id="sortButton">Sort Cards</button>
+</div>
+<div id="cardContainer" class="yourCardContainer">
+    <!-- Automatic addition of City Cards Here -->
+</div>
+</main>
+<footer class="footer">
+    Inspired by the precision and discipline, guiding us towards mastery in every step!  <i class="fa-solid fa-chess-queen"></i>
+</footer>
+<script src="bundle.js"></script>
+</body>
+</html>

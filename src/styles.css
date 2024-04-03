@@ -1,0 +1,167 @@
+/* Resetting some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and body improvements */
+.body {
+    background: url(images/pngtree-blank-wooden-table-showcasing-beautiful-wood-texture-image_13622757.png) rgba(77, 73, 73, 0.356);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+}
+
+/* Header styling */
+.header {
+    color: rgba(233, 240, 236, 0.938);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(65, 63, 63, 0.274);
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Footer styling */
+.footer {
+    color: rgba(240, 233, 233, 0.911);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #15323b85;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Main container adjustments */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Button enhancements */
+button {
+    border: 1px solid rgb(191, 191, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(185, 186, 187);
+    color: #fdfdfd;
+    padding: 4px 10px;
+    margin-top: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(251, 252, 253); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+input[type="text"] {
+    border: 3px solid  #fefbd8;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px; 
+}
+.yourCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(6, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+.inputButtons{
+    margin-right: 1500px;
+}
+.card{
+    font-weight: 500;
+    background-image: url(images/desktop-wallpaper-the-queen-of-hearts-playing-card-queen-card-thumbnail.jpg);
+    background-size:cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    position: static;
+    border: 3px solid #0a0a0a;
+    border-radius: 14px;
+    box-shadow: 10 12px 15px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 35px;
+    text-align: center;
+    width: 270px;
+}
+.card-header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+.delete-button {
+    background-color: salmon;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 10px;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: #080808;
+}
+.edit-button {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.edit-button:hover {
+    background-color: salmon;
+}
+.rating-select{
+    background-color: rgb(245, 240, 240);
+    margin-left: 27px;
+    border: 1px solid #070606;  
+}
+#saveFlashcardButton {
+    background-color: #070606d2;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    
+}
+#saveFlashcardButton:hover{
+    background-color: rgb(29, 129, 79);
+}
+#sortButton{
+    background-color: #0c642ec7;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+#sortButton:hover { 
+    background-color: #070606be;
+}
+#addFlashcardButton{
+    background-color: #0c642ec7;
+    border: none;
+    padding: 30px 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+#addFlashcardButton:hover{
+    background-color: #070606e1;
+}
+.close .fa-rectangle-xmark {
+    font-size: 25px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
